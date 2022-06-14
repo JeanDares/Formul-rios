@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--doctype informa ao agente de usuario a versão do 
+html que deve ser renderizada-->
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> <!-- defiinir acentos na  pagina-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jean Borges">
+    <meta name="desciption" content="texto  que sera visto na busca do navegador">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>exemplos de formularios</h1>
+
+    <form action="http://google.com/search" method="get" target="_blank">
+        <label for="txtbusca"></label>
+        <input type="text" name="q" id="txtbusca">
+        <input type="submit" value="OK">
+    </form>
+
+
+    <form action="http://google.com/search" method="get" target="_blank">
+
+        <fieldset>
+            <legend>Login</legend>
+            <label for="log">user: </label>
+            <input type="text" name="text" id="log">            
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass">
+        </fieldset>
+
+        <input type="submit" value="Login">
+
+
+
+
+    </form>
+
+</body>
+
+</html>
